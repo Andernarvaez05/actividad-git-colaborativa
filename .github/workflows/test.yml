@@ -5,13 +5,13 @@ on:
     branches:
       - main
       - antonyguaman
-      - andersonarvarvaez
+      - andersonarvaez
 
   pull_request:
     branches:
       - main
       - antonyguaman
-      - andersonarvarvaez
+      - andersonarvaez
 
 jobs:
   build:
@@ -41,4 +41,4 @@ jobs:
         run: |
           python -m pytest 
       - name: Ejecutar Aplicacion
-        run: python app/calculadora.py
+        run: python calculadora.py
